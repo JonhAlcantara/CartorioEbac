@@ -120,9 +120,14 @@ int main ()
                case 2: 
               consulta();
                break;
-              deletar();
+              
                case 3: 
+               deletar();
+               break;
                
+               case 4:
+               printf ("obrigado por vizualizar o sistema! \n");
+               return 0;
                break;
                
                default:
